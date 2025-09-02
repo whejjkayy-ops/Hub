@@ -63,7 +63,7 @@ local Tabs = {
 })
     
     Tabs.Main2:AddButton({
-    Title="Redz Hub",
+    Title="Redz Hub(đang update)",
     Description="",
     Callback=function()
 	  local Settings = {
@@ -76,7 +76,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 })
 
 Tabs.Main2:AddButton({
-    Title="GreenZ Hub",
+    Title="GreenZ Hub(Tạm thời không hoạt động)",
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/GreenZ-Hub/refs/heads/main/KaitunDoughKing.lua"))()
